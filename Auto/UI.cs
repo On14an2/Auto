@@ -23,7 +23,6 @@ namespace Auto
             CarClass car = new CarClass(inMark, inModel, inColor, inNumber);
             Array.Resize(ref array, array.Length + 1);
             array[array.Length - 1] = car;
-            //return array;
         }
         public static void SearchCar(ref CarClass[] array)
         {
